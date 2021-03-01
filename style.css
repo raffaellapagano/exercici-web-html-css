@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    background: #da3135;
+    color: #f1efda;
+    font-size: 41px;
+    font-family: 'Oswald', sans-serif;
+    width: 1000px;
+    height: 120px;
+    margin: 15px auto;
+    padding-top: 20px;
+    }
+
+.cabecera .bloque {
+    display: inline-block;
+    border: 0px solid black;
+    width: 140px;
+    height: 40px;
+    margin: 20px 20px;
+}
+
+.logo-cabecera {
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}
+
+.cabecera .bloque .links { 
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    top: 42px;
+    right: 161px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #f1efda;
+}
+
+body{
+    background: white;
+    color: #999;
+font-size: 15px;
+font-family: 'Oswald', sans-serif;
+}
+
