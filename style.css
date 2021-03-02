@@ -12,7 +12,6 @@
     width: 1000px;
     height: 120px;
     margin: 15px auto;
-    padding-top: 20px;
     }
 
 .cabecera .bloque {
@@ -51,45 +50,123 @@ font-size: 15px;
 font-family: 'Oswald', sans-serif;
 }
 
-/* Navigation */
 
-.container {
-    width: 1000px;
-    height: 48px;
-    margin: auto;
-    border: 1px solid black;
-    background: #da3135;
-}
+/* NAV MENU */
+
 .nav-main {
+    width: 1004px;
+    height: 48px;
     font-size: 17px;
     display: block;
     text-align: center;
     align-items: center;
-    margin: auto;
+    margin: 31px auto;
 }
 
 .nav-menu {
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
 }
 
-/* NAV LEFT */
 .nav-main ul {
     list-style: none;
-    margin: 0 20px;;
+    justify-content: space-between;
 }
 
 .nav-main ul li {
-    display: inline-block;
-    border: 1px solid black;
-    width: 200px;
+    display: flex;
     height: 47px;
-    margin: auto;
+    margin: auto 2px;
+    background: #da3135;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-main ul li a {
-    padding: 6px;
+.nav-menu a{
+    color: #f1efda;
+    text-decoration: none;
 }
 
-.nav-main ul li a:hover {
-    border-bottom: 2px solid white;   
+.nav-main a:hover {
+    border-bottom: 2px solid #f1efda;   
+}
+
+
+/* PRIMERA FILA DE 3 SECCIONES MENU */
+
+.secciones {
+    width: 1004px;
+    height: 48px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 31px auto;
+}
+
+.secciones-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    list-style: none;
+}
+
+.secciones-menu li {
+    display: flex;
+    height: 192px;
+    margin: auto 2px;
+    background: #da3135;
+    align-items: center;
+    justify-content: center;
+}
+
+.secciones-menu a {
+    color: #f1efda;
+    text-decoration: none;
+}
+
+.secciones-menu a:hover {
+    border-bottom: 2px solid #f1efda;   
+}
+
+/* FILA DE TRES ARTICULOS */
+
+.articulos {
+        display: grid;
+        width: 1000px;
+        height: 192px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 150px auto;
+        align-items: center;
+        justify-content: center;
+        color: #f1efda
+    }
+
+.articulo-uno {
+    width: 200px;
+    height: 453px;
+    background: url(imagenes/img-articulo-1.jpg);
+    padding: 20px;
+}
+
+.articulo-dos {
+    width: 600px;
+    height: 453px;
+    background: url(imagenes/img-articulo-2.jpg);
+    padding: 20px;
+}
+
+.articulo-tres {
+    width: 200px;
+    height: 453px;
+    background: url(imagenes/img-articulo-3.jpg);
+    padding: 20px;
+}
+
+.articulos a {
+    padding: 10 px 0;
+    color: #f2f2f2;
+    display: inline-block;
+    font-weight: bold;
 }
