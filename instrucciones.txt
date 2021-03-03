@@ -1,0 +1,71 @@
+Descripció
+Converteix un Wireframe.psd en una pàgina HTML i aplicar el grafisme adient.
+
+Nivell 1//////////////////////////////////////////////////////////////////////////////////
+- Exercici 1
+Aquesta tasca intenta reflectir el que ens trobem habitualment en el flux de treball d'una 
+empresa web. Els pas del disseny formal al codi HTML/CSS.
+
+Partirem d'un Wireframe aportat pel dissenyador, i haurem de prendre les mides i convertir-ho
+en una pàgina HTML formal. Els aspectes que es valoraran seran:
+
+Estructura d'arxius: només necessitem la pàgina html inicial, l'arxiu CSS i les imatges que 
+utilitzis.
+
+Codificació HTML semàntic
+La pàgina ha de funcionar en format escriptori només.
+S'han de respectar les mides i marges proposats.
+El codi ha d'estar comentat i estructurat.
+Ha de ser responsive.
+
+Nivell 2//////////////////////////////////////////////////////////////////////////////////
+- Exercici 2
+Et veus amb cor de fer un pas més?. Creus que podràs canviar els rectangles per contingut?. 
+Et proposem que afegeixis el següent:
+
+Logo 
+Icones xarxes socials 
+Fons imatge a la capçalera 
+Barra navegació de 5 opcions 
+Elements destacats formats per imatge + títol+ botó (accedir) ************************
+Les imatges han d’estar optimitzades i en el format correcte.
+Adjuntar tipografies de Google Fonts.**********************************
+Footer amb dades de contacte i copyright.^^^^^^^^^^^^^^^^^^^^^^^^^^
+Secció contingut central amb articles en format filera. Els articles estaran formats per 
+imatge + títol + text introductori + botó Veure més
+
+
+Nivell 3//////////////////////////////////////////////////////////////////////////////////
+- Exercici 3
+Ara et reptem a què acabis el projecte amb 1 toc professional.
+
+Publicar la teva web a un Hosting i domini gratuït*******************************
+
+Recursos//////////////////////////////////////////////////////////////////////////////////
+Adjuntat arxiu wireframe.psd
+Creació de logo gratuït (N.2)
+Treballar amb icones (N.2)
+Posar capçalera amb imatge de fons (N.2)
+Treballar amb Google Fonts (N.2)
+Hosting i domini gratuït (N.3)
+
+CRITERI DE VALUTACIO//////////////////////////////////////////////////////////////////////
+
+En aquest punt del projecte, hem de fer la maquetació de la pàgina principal. Es valorarà:
+
+HTML semàntic
+
+Recorda com d'important és tenir un HTML estructurat semànticament perquè els navegadors la posicionin correctament i millorin l'accessibilitat. Recorda utilitzar etiquetes de l'estil nav, section, article, footer,...
+
+Estructura de carpetes
+
+Recorda utilitzar una estructura d'arxius entenible i que utilitzi noms sense caràcters especials.
+
+Imatges
+
+Recorda utilitzar el format i pes més apropiat.
+
+Comentaris de codi
+
+Comentar el codi és una bona pràctica per treballar en grup o per recordar què fem en cada moment.
+

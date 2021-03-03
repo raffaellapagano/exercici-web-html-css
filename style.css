@@ -4,38 +4,48 @@
     padding: 0;
 }
 
+.contenidor{
+    width: 1000px;
+    margin: 20px auto;
+}
+
 .cabecera {
-    background: #da3135;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 30px;
+    background: url(imagenes/img-cabecera.jpg);
     color: #f1efda;
-    font-size: 41px;
-    font-family: 'Oswald', sans-serif;
     width: 1000px;
     height: 120px;
-    margin: 15px auto;
+    margin: auto;
+    font-size: 41px;
+    font-family: 'Oswald', sans-serif;
     }
-
-.cabecera .bloque {
-    display: inline-block;
-    border: 0px solid black;
-    width: 140px;
-    height: 40px;
-    margin: 20px 20px;
-}
 
 .logo-cabecera {
     border: 1px solid black;
-    display: block;
-    position: absolute;
-    top: 45px;
-    left: 160px;
+    width: 200px;
 }
 
-.cabecera .bloque .links { 
-    display: inline-block;
-    position: absolute;
-    cursor: pointer;
-    top: 42px;
-    right: 161px;
+/* NAV LEFT */
+
+.cabecera ul {
+    display: flex;
+    list-style: none;
+}
+
+.cabecera ul li {
+    padding: 10px;
+}
+
+.links {
+    font-size: 40px;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 120px;
+    padding: 20px 0;
 }
 
 .links a {
@@ -46,8 +56,8 @@
 body{
     background: white;
     color: #999;
-font-size: 15px;
-font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -60,7 +70,8 @@ font-family: 'Oswald', sans-serif;
     display: block;
     text-align: center;
     align-items: center;
-    margin: 31px auto;
+    margin: auto;
+    margin-top: 22px;
 }
 
 .nav-menu {
@@ -102,7 +113,8 @@ font-family: 'Oswald', sans-serif;
     display: block;
     text-align: center;
     align-items: center;
-    margin: 31px auto;
+    margin: auto;
+    margin-top: 26px;
 }
 
 .secciones-menu{
@@ -113,12 +125,13 @@ font-family: 'Oswald', sans-serif;
 }
 
 .secciones-menu li {
-    display: flex;
+    display: block;
     height: 192px;
     margin: auto 2px;
     background: #da3135;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 }
 
 .secciones-menu a {
@@ -130,6 +143,12 @@ font-family: 'Oswald', sans-serif;
     border-bottom: 2px solid #f1efda;   
 }
 
+.button {
+    color:#da3135;
+    background: #f1efda;
+
+}
+
 /* FILA DE TRES ARTICULOS */
 
 .articulos {
@@ -137,7 +156,7 @@ font-family: 'Oswald', sans-serif;
         width: 1000px;
         height: 192px;
         grid-template-columns: repeat(3, 1fr);
-        margin: 150px auto;
+        margin: 170px auto; /*solo me sale 144px+26pc*/
         align-items: center;
         justify-content: center;
         color: #f1efda
@@ -147,21 +166,21 @@ font-family: 'Oswald', sans-serif;
     width: 200px;
     height: 453px;
     background: url(imagenes/img-articulo-1.jpg);
-    padding: 20px;
+    padding: 40px;
 }
 
 .articulo-dos {
     width: 600px;
     height: 453px;
     background: url(imagenes/img-articulo-2.jpg);
-    padding: 20px;
+    padding: 40px;
 }
 
 .articulo-tres {
     width: 200px;
     height: 453px;
     background: url(imagenes/img-articulo-3.jpg);
-    padding: 20px;
+    padding: 40px;
 }
 
 .articulos a {
@@ -169,4 +188,18 @@ font-family: 'Oswald', sans-serif;
     color: #f2f2f2;
     display: inline-block;
     font-weight: bold;
+}
+
+/* FOOTER RIGHTS */
+
+.footer {
+    display: block;
+    background: #da3135;
+    color: #f1efda;
+    padding: 20px 0;
+    font-size: 12px;
+    text-align: center;
+    width: 1000px;
+    height: 70px;
+    margin: 286px auto 25px auto;
 }
