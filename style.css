@@ -216,6 +216,25 @@ body{
     margin: 286px auto 25px auto;
 }
 
+.footer-container {
+    list-style: none;
+    align-items: center;
+    width: 1000px;
+    height: 70px;
+    margin: auto;
+}
+
+.footer-container ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-container ul li {
+    padding: 5px 10px;
+}
+
 .footer a {
     font-size: 15px;
     text-decoration: none;
